@@ -23,10 +23,10 @@ if ($_SESSION) {
                 "yeni_photo" => $_POST['resimInput']
             ));
             if ($update) {
-                header("Location: http://localhost/blog/");
+                header("Location: ./home.php");
             }
         } else {
-            header("Location: http://localhost/blog/pages/yaziekle.php?hata=1");
+            header("Location: ./yaziekle.php?hata=1");
         }
     }
     ?>
@@ -65,5 +65,5 @@ if ($_SESSION) {
         </div>
     </div>
 <?php } else {
-    header("Location: http://localhost/blog/");
+    header("Location: ./home.php");
 }  ?>

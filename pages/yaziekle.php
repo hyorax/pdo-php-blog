@@ -25,7 +25,7 @@ if (isset($_POST['yaziSubmit'])) {
             echo "insert olmadı";
         }
     } else {
-        header("Location: http://localhost/blog/pages/yaziekle.php?hata=1");
+        header("Location: ./yaziekle.php?hata=1");
     }
 }
 ?>
@@ -53,5 +53,5 @@ if (isset($_POST['yaziSubmit'])) {
     </div>
 </div>
 <?php } else {
-     header("Location: http://localhost/blog/");
+     header("Location: home.php");
 }  ?>

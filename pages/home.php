@@ -10,7 +10,7 @@ if (isset($_GET['sil'])) {
         'id' => $_GET['sil']
     ));
     if ($delete) {
-        header("Location: http://localhost/blog/");
+        header("Location: ./home.php");
     }
 }
 if (isset($_GET['onecikar'])) {
@@ -25,7 +25,7 @@ if (isset($_GET['onecikar'])) {
             "yeni_pin" => 0
         ));
         if ($update) {
-            header("Location: http://localhost/blog/");
+            header("Location: ./home.php");
         }
     } else {
         $queryUpdate = $db->prepare('UPDATE postblog SET 
@@ -35,7 +35,7 @@ if (isset($_GET['onecikar'])) {
             "yeni_pin" => 1
         ));
         if ($update) {
-            header("Location: http://localhost/blog/");
+            header("Location: ./home.php");
         }
     }
 }

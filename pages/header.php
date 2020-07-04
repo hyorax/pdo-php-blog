@@ -17,7 +17,7 @@ ob_start();
     <header>
         <div class="headerDiv">
             <div class="headerImage">
-                <a href="http://localhost/blog/">
+                <a href="./home.php">
                 <?php 
                         $headerQuery = $db->query('SELECT * FROM postgenel')->fetch(PDO::FETCH_ASSOC);
                         if ($headerQuery) {
@@ -32,17 +32,17 @@ ob_start();
                 
             </div>
             <div class="headerRanking">
-                <a href="http://localhost/blog/pages/home.php">ANA SAYFA</a>
+                <a href="./home.php">ANA SAYFA</a>
                 <?php if ($_SESSION) {
                 ?>
-                    <a href="http://localhost/blog/pages/yaziekle.php">YAZİ EKLE</a>
-                    <a href="http://localhost/blog/pages/genelayar.php">GENEL & HAKKIMDA & İLETİŞİM DUZENLE</a>
+                    <a href="yaziekle.php">YAZİ EKLE</a>
+                    <a href="genelayar.php">GENEL & HAKKIMDA & İLETİŞİM DUZENLE</a>
                 <?php
                 } else {
                 ?>
-                    <a href="http://localhost/blog/pages/home.php">BLOG</a>
-                <a href="http://localhost/blog/pages/aboutme.php">HAKKIMDA</a>
-                <a href="http://localhost/blog/pages/contact.php">ILETISIM</a>
+                    <a href="home.php">BLOG</a>
+                <a href="aboutme.php">HAKKIMDA</a>
+                <a href="contact.php">ILETISIM</a>
                 <?php
                 } ?>
             </div>
