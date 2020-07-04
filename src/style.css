@@ -1,0 +1,445 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap');
+body {
+    background-color: #ffffe0;
+    margin: 0px;
+}
+
+.headerImage {
+    background-color: #3d3d3d;
+    padding: 10px;
+    text-align: center;
+}
+
+.headerImage a>img {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    -webkit-box-shadow: 0 0 5px 0 #000000;
+    box-shadow: 0 0 5px 0 #000000;
+    margin: 0 auto;
+    display: block;
+}
+
+.headerImage a {
+    text-decoration: none;
+}
+
+.headerImage a>p {
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-weight: 700;
+    margin-bottom: 7px;
+}
+
+.headerImage pre {
+    margin: 0px;
+    color: #fff;
+    margin-bottom: 5px;
+}
+
+.headerImage pre>a {
+    color: #ff9f1a;
+}
+
+.headerRanking {
+    width: 100%;
+    background-color: #3d3d3de3;
+    margin-right: 0px;
+    padding: 10px 0px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.headerRanking a {
+    font-size: 15px;
+    color: #ff9f1a;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.sectionDiv {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0px;
+    width: 100%;
+}
+
+.sectionPost {
+    width: 50%;
+    height: auto;
+    margin: 0 auto;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    background-color: rgb(243, 243, 210, 0.5);
+    border-radius: 7px;
+    -webkit-box-shadow: 0 0 0.8px 0 rgb(243, 243, 210, 0.5);
+    box-shadow: 0 0 0.8px 0 rgb(243, 243, 210, 0.5);
+}
+
+.sectionPost img {
+    width: 100%;
+    height: 100%;
+}
+
+.sectionPost a {
+    text-decoration: none;
+}
+
+.sectionPost hr {
+    width: 100%;
+    opacity: 0.2;
+}
+
+.sectionPost a {
+    text-decoration: none;
+}
+
+.sectionPost form {
+    width: 100%;
+}
+
+.sectionBackground {
+    background-image: url(../assets/img/1844097.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    width: auto;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.sectionBackground:hover {
+    -webkit-box-shadow: 0 0 7px 0 #000;
+    box-shadow: 0 0 7px 0 #000;
+    -webkit-transition: box-shadow 0.5s ease-in;
+    -moz-transition: box-shadow 0.5s ease-in;
+    -ms-transition: box-shadow 0.5s ease-in;
+    -o-transition: box-shadow 0.5s ease-in;
+    transition: box-shadow 0.5s ease-in;
+}
+
+.sectionBackground a {
+    width: 100%;
+}
+
+.sectionBackground h1 {
+    padding: 10px;
+    color: #ddd;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+
+.sectionPost p {
+    padding: 10px;
+    color: #666;
+    margin: 10px 0px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500px;
+}
+
+.sectionPost pre {
+    padding: 0px 10px;
+    color: #666;
+}
+
+.sectionLearnMore {
+    color: #ff9f1a;
+    padding: 0px 10px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+
+.sectionLink {
+    padding: 0px;
+    margin: 0px;
+}
+
+.sectionAbout h1 {
+    padding: 10px;
+    color: #3d3d3d;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+
+.sectionPinPost {
+    margin: 0px;
+    padding: 0px;
+}
+
+.sectionPinPost p {
+    padding: 0px 10px;
+    margin: 5px 0px;
+    font-size: 13px;
+    color: #666;
+    font-family: 'Roboto', sans-serif;
+}
+
+.sectionPagination {
+    width: auto;
+    height: auto;
+}
+
+.sectionPaginationList {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.sectionPaginationList a {
+    background-color: #3d3d3d;
+    padding: 10px;
+    color: #ff9f1a;
+    text-decoration: none;
+}
+
+.footterDiv {
+    background-color: red;
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: end;
+}
+
+.footterList {
+    background-color: #3d3d3d;
+    padding: 10px;
+    text-align: center;
+}
+
+.footterList pre {
+    color: #ff9f1a
+}
+
+.sectionLoginPost {
+    width: 30%;
+    height: auto;
+    margin-top: 10%;
+}
+
+.sectionLoginPost form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 300px;
+}
+
+.sectionLoginPost form>input {
+    margin-bottom: 10px;
+}
+
+.sectionLoginPost form>input[type="text"]::placeholder {
+    color: #fff;
+    opacity: 1;
+    font-family: 'Roboto', sans-serif;
+}
+
+.sectionLoginPost form>input[type="password"]::placeholder {
+    color: #fff;
+    opacity: 1;
+    font-family: 'Roboto', sans-serif;
+}
+
+.sectionLoginPost form>input[type="text"] {
+    outline: none;
+    width: 50%;
+    height: 15px;
+    padding: 10px;
+    border: 0px;
+    background-color: #3d3d3d;
+    border-radius: 10px;
+    -webkit-box-shadow: 0 0 10px 0 #808077;
+    box-shadow: 0 0 10px 0 #808077;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+
+.sectionLoginPost form>input[type="password"] {
+    outline: none;
+    width: 50%;
+    height: 15px;
+    padding: 10px;
+    border: 0px;
+    background-color: #3d3d3d;
+    border-radius: 10px;
+    color: #fff;
+    -webkit-box-shadow: 0 0 10px 0 #808077;
+    box-shadow: 0 0 10px 0 #808077;
+    font-family: 'Roboto', sans-serif;
+}
+
+.sectionLoginPost form>input[type="submit"] {
+    outline: none;
+    width: 50%;
+    padding: 10px;
+    border: 0px;
+    background-color: #3d3d3d;
+    -webkit-box-shadow: 0 0 10px 0 #808077;
+    box-shadow: 0 0 10px 0 #808077;
+    border-radius: 10px;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+
+.sectionLoginPost form>p {
+    margin-top: 0px;
+    padding-top: 0px;
+    font-size: 13px;
+}
+
+.sectionLoginPost form>p>a {
+    color: #3d3d3d;
+    font-weight: 500;
+}
+
+.sectionAddPost {
+    width: 40%;
+    margin-top: 10px;
+    height: 400px;
+}
+
+.sectionAddPost form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 300px;
+}
+
+.sectionAddPost form>input {
+    margin-top: 7px;
+}
+
+.sectionAddPost form>input[type="text"] {
+    outline: none;
+    width: 50%;
+    height: 15px;
+    padding: 10px;
+    border: 0px;
+    background-color: #3d3d3d;
+    border-radius: 10px;
+    color: #fff;
+    -webkit-box-shadow: 0 0 10px 0 #808077;
+    box-shadow: 0 0 10px 0 #808077;
+    font-family: 'Roboto', sans-serif;
+}
+
+.sectionAddPost form>textarea {
+    margin-top: 7px;
+    outline: none;
+    width: 50%;
+    min-height: 250px;
+    padding: 10px;
+    border: 0px;
+    background-color: #3d3d3d;
+    border-radius: 10px;
+    color: #fff;
+    -webkit-box-shadow: 0 0 10px 0 #808077;
+    box-shadow: 0 0 10px 0 #808077;
+    font-family: 'Roboto', sans-serif;
+}
+
+.sectionAddPost form>textarea::placeholder {
+    color: #fff;
+    opacity: 1;
+    font-family: 'Roboto', sans-serif;
+}
+
+.sectionAddPost form>input[type="text"]::placeholder {
+    color: #fff;
+    opacity: 1;
+    font-family: 'Roboto', sans-serif;
+}
+
+.sectionAddPost form>input[type="submit"] {
+    outline: none;
+    width: 50%;
+    padding: 10px;
+    border: 0px;
+    background-color: #3d3d3d;
+    -webkit-box-shadow: 0 0 10px 0 #808077;
+    box-shadow: 0 0 10px 0 #808077;
+    border-radius: 10px;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+
+.sectionPost span>a {
+    color: #3d3d3d;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    margin-right: 5px;
+}
+
+.sectionGenel {
+    background-color: #ffffe0;
+}
+
+@media only screen and (max-width: 1095px) {
+    .sectionPost {
+        width: 60%;
+    }
+    .sectionAddPost {
+        width: 60%;
+    }
+    .sectionAddPost form>textarea {
+        width: 60%;
+    }
+    .sectionAddPost form>input[type="text"] {
+        width: 60%;
+    }
+}
+
+@media only screen and (max-width: 820px) {
+    .sectionPost {
+        width: 70%;
+    }
+    .sectionAddPost {
+        width: 70%;
+    }
+    .sectionAddPost form>input[type="text"] {
+        width: 70%;
+    }
+    .sectionAddPost form>textarea {
+        width: 70%;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .sectionPost {
+        width: 80%;
+    }
+    .sectionAddPost {
+        width: 80%;
+    }
+    .sectionAddPost form>input[type="text"] {
+        width: 80%;
+    }
+    .sectionAddPost form>textarea {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .sectionPost {
+        width: 83%;
+    }
+    .sectionAddPost {
+        width: 83%;
+    }
+    .sectionAddPost form>input {
+        width: 83%;
+    }
+    .sectionAddPost form>textarea {
+        width: 83%;
+    }
+}
